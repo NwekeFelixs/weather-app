@@ -408,7 +408,7 @@ export const updateWeather = function(lat, lon) {
                         <img src="./assets/images/weather_icons/${icon}.png" alt="${description}" class="weather-icon" width="36" height="36" title="${description}">
 
                         <span class="span">
-                            <p class="title-2">${parseInt(temp_max)}$deg;</p>
+                            <p class="title-2">${parseInt(temp_max)}&deg;</p>
                         </span>
                     </div>
 
