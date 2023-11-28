@@ -763,7 +763,7 @@ article.container::before{
  =========== for screens larger than 768px
  */
 
- @media (min-width: 992px) {
+ @media (min-width: 768px) {
     .container { padding: 24px;}
 
     .title-1 { --titile: 2.4rem;}
